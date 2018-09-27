@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DuringChargeActivity">
+
+    <TextView
+        android:id="@+id/tv_charge_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25 %"
+        android:textSize="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/iv_battery"/>
+
+    <ImageView
+        android:id="@+id/iv_battery"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        app:srcCompat="@drawable/ic_battery_charging_full_black_24dp"
+        android:layout_centerInParent="true"
+         />
+
+    <TextView
+        android:id="@+id/tv_time_left"
+        android:layout_below="@id/iv_battery"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Left in Mins"
+        android:textSize="36dp"/>
+
+    <Button
+        android:id="@+id/bt_stop_charging"
+        android:textAllCaps="false"
+        android:layout_margin="@dimen/activity_vertical_margin"
+        android:layout_above="@id/bt_nearby"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Charging"
+        android:layout_below="@id/tv_time_left"
+        android:textSize="18dp"/>
+
+    <Button
+        android:id="@+id/bt_nearby"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NearBy Places"
+        android:textSize="18dp"/>
+</RelativeLayout>

@@ -1,0 +1,120 @@
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true">
+
+    <RadioGroup
+        android:id="@+id/rg_type_plan"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:hint="Phone number"
+        android:inputType="number"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        >
+
+        <RadioButton
+            android:id="@+id/rb_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Regular"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_postpaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PrePaid"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_prepaid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PostPaid"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etv_email_id_reg"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        />
+
+    <EditText
+        android:id="@+id/etv_password_reg"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp" />
+
+    <EditText
+        android:id="@+id/etv_confirm_password_reg"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp" />
+
+    <EditText
+        android:id="@+id/etv_name_reg"
+        android:layout_width="300dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:hint="Name"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp" />
+
+
+
+
+    <Button
+        android:id="@+id/bt_sign_up"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimary"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

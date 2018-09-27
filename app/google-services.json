@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "41706618617",
+    "firebase_url": "https://ev-charge-33369.firebaseio.com",
+    "project_id": "ev-charge-33369",
+    "storage_bucket": "ev-charge-33369.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41706618617:android:be0ade9fe1762f1d",
+        "android_client_info": {
+          "package_name": "com.example.android.evcharge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41706618617-9vflr1otucjs7llapsbfq1f7iuh2jqso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.evcharge",
+            "certificate_hash": "b7c58aed76d0238d35c7857c52c9f92d7b34fe80"
+          }
+        },
+        {
+          "client_id": "41706618617-1k4a6c3igi4e327k5pkjedtul3fuv2ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvWzCvW7P0yQqbQw6eKq4s2tjZ39FmEus"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41706618617-1k4a6c3igi4e327k5pkjedtul3fuv2ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
